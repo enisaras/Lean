@@ -25,6 +25,7 @@ namespace QuantConnect.Indicators
         /// Gets the type of moving average
         /// </summary>
         public MovingAverageType MovingAverageType { get; }
+        public int a;
 
         /// <summary>
         /// Gets the standard deviation
