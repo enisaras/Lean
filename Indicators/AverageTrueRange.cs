@@ -30,6 +30,7 @@ namespace QuantConnect.Indicators
     /// </summary>
     public class AverageTrueRange : BarIndicator, IIndicatorWarmUpPeriodProvider
     {
+        private int a;
         private IBaseDataBar _previous;
 
         /// <summary>This indicator is used to smooth the TrueRange computation</summary>
